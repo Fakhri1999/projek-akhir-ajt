@@ -14,13 +14,16 @@ import org.eclipse.paho.client.mqttv3.MqttException;
 import org.eclipse.paho.client.mqttv3.MqttMessage;
 
 import java.io.UnsupportedEncodingException;
+import java.util.Random;
 
 public class MqttHelper {
     public MqttAndroidClient mqttAndroidClient;
 
     final String serverUri = "tcp://mqtt.flespi.io:1883";
 
-    final String clientId = "ExampleAndroidClient";
+    Random rand = new Random();
+    int randomNumber = rand.nextInt(1000);
+    final String clientId = "gateway-" + Integer.toString(randomNumber);
     final String subscriptionTopic = "sensor/+";
 
     final String username = "GctC7MzxjjO0UbiiIfxEQrBf7N6OOiQii9IfJ8BQhfGZfO6NTtfyIGBFhxhUEV2M";
