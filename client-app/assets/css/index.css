@@ -1,0 +1,21 @@
+.kotak {
+  height: 10vh;
+  width: 50vw;
+  background: #1fb56f;
+  border-radius: 5px;
+}
+
+.kotak h5 {
+  top: 50%;
+}
+
+.blink {
+  color: black;
+  animation: blinker 0.5s;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}

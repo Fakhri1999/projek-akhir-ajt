@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Android BLE Gateway &amp; MQTT client</string>
+
+    <string name="Start">Start Bluetooth</string>
+    <string name="Search">Search for Device</string>
+    <string name="Connect">Connect to Device</string>
+    <string name="DiscoverServices">Discover Services and Characteristics</string>
+    <string name="GetChars">Get Characteristics</string>
+    <string name="Disconnect">Disconnect</string>
+    <string name="RedLED">Red LED</string>
+    <string name="Battery">Battery Value =</string>
+    <string name="Temperature">Temperature Value =</string>
+    <string name="Humidity">Humidity Value =</string>
+    <string name="NoTouch">"-"</string>
+    <string name="NotifyOff">"Notify Off"</string>
+    <string name="NotCurrentService">"Not included in current service"</string>
+    <string name="Notify">Notify</string>
+    <string name="battery_status">Battery status</string>
+    <string name="battery_value_here">Battery value here</string>
+</resources>
